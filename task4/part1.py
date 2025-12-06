@@ -33,7 +33,6 @@ while True:
                 if neighbor_count <= 3:
                     flag = True
                     counter += 1
-                    table[r][c] = "x"
     if not flag:
         break
     
